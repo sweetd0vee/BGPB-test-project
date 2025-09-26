@@ -11,6 +11,6 @@ from
 join LOANS_FACT as lf on
 	l.id_loan = lf.id_loan
 where
-	l.dt_end = '2023-09-30'
+	lf.dt = '2023-09-30'
 	and (l.code_curr = '840'
 		or l.code_curr = '978')
