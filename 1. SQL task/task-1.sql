@@ -5,7 +5,7 @@ select
 		when l.code_curr = '840' then 'Доллары США'
 		when l.code_curr = '978' then 'Евро'
 	end as currency,
-	lf.rest_od_eq + lf.rest_pd_eq as rest_eq
+	lf.rest_od_eq + lf.rest_pd_eq as rest_eq -- not null
 from
 	LOANS as l
 join LOANS_FACT as lf on
