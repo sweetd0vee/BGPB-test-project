@@ -14,5 +14,5 @@ from
             and dt_open_loan between '2022-01-01' and '2022-12-31' -- Фильтрация по дате договора
         group by
             c.name_client
-        having count(l.id_loan) > 1 -- Фильтрация по количеству договоров
+        having count (distinct l.id_loan) > 1 -- Фильтрация по количеству договоров
     ) as filtered_clients;
