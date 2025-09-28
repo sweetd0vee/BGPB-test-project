@@ -1,3 +1,5 @@
+import warnings
+
 import joblib
 import pandas as pd
 import xgboost as xgb
@@ -5,10 +7,8 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-from artifacts.features import CATEGORICAL, FEATURES, NUMERICAL
+from artifacts.features import CATEGORICAL, FEATURES
 
-
-import warnings
 warnings.filterwarnings('ignore')
 
 from base_logger import logger
@@ -57,7 +57,7 @@ except Exception as e:
     logger.error(f"Model training failed: {e}")
     raise
 
-pred = model_best.predict_proba(X_test)[:,1]
+pred = model_best.predict_proba(X_test)[:, 1]
 logger.info(f"ROC_AUC score for best model: {roc_auc_score(y_test, pred)}")
 
 joblib.dump(model_best, 'artifacts/XGBoost.joblib', compress=True)

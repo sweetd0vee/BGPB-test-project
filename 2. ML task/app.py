@@ -1,16 +1,13 @@
-from fastapi import HTTPException
+import io
+from typing import Annotated
 
 import joblib
 import numpy as np
 import pandas as pd
-from fastapi import FastAPI, File, UploadFile
-from typing import Annotated
+from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
 from artifacts.features import CATEGORICAL, FEATURES
-
-import io
-
 from base_logger import logger
 
 # Load the pre-trained XGBoost model
