@@ -10,9 +10,20 @@ from fastapi.middleware.cors import CORSMiddleware
 from artifacts.features import CATEGORICAL, FEATURES
 from base_logger import logger
 
+
 # Load the pre-trained XGBoost model
-model = joblib.load('artifacts/XGBoost.joblib')
-categorical_le = joblib.load('artifacts/label_encoders.joblib')
+try:
+    model = joblib.load('artifacts/XGBoost.joblib')
+except FileNotFoundError:
+    logger.error("Model file not found")
+    raise HTTPException(500, "Model not available")
+
+try:
+    categorical_le = joblib.load('artifacts/label_encoders.joblib')
+except FileNotFoundError:
+    logger.error("Categorical encoders not found")
+    raise HTTPException(500, "Model not available")
+
 
 app = FastAPI()
 
