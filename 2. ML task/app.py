@@ -41,24 +41,24 @@ async def predict(file: UploadFile = File(...)):
 
     contents = await file.read()
     csvdata = pd.read_csv(io.StringIO(contents.decode('utf-8')))
-    data = pd.DataFrame(csvdata)
+    data_test = pd.DataFrame(csvdata)
 
-    logger.info(data)
+    logger.info(data_test)
 
     # Validation of columns in input file
     required_cols = ['ID'] + FEATURES
-    if not all(c in data.columns for c in required_cols):
+    if not all(c in data_test.columns for c in required_cols):
         raise HTTPException(400, f"Missing required columns")
 
-    data = data.set_index('ID')
+    data_test = data_test.set_index('ID')
 
     # Encoded categorical features in PredictionInput
     logger.info(categorical_le)
-    data[CATEGORICAL] = categorical_le.transform(data[CATEGORICAL].astype('str'))
-    logger.info(data)
+    data_test[CATEGORICAL] = categorical_le.transform(data_test[CATEGORICAL].astype('str'))
+    logger.info(data_test)
     # Convert input features to a NumPy array
 
-    input_array = np.array(data[FEATURES]).reshape(1, -1)
+    input_array = np.array(data_test[FEATURES]).reshape(1, -1)
 
     # Make prediction
     prediction = model.predict(input_array).tolist()
