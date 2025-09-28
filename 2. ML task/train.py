@@ -57,5 +57,5 @@ model_best.fit(X_train, y_train, eval_set=[(X_valid, y_valid)])
 pred = model_best.predict_proba(X_test)[:,1]
 print(roc_auc_score(y_test, pred))
 
-joblib.dump(model_best, '/XGBoost.joblib', compress=True)
-joblib.dump(label_encoders, '/label_encoders.joblib', compress=True)
+joblib.dump(model_best, 'artifacts/XGBoost.joblib', compress=True)
+joblib.dump(label_encoders, 'artifacts/label_encoders.joblib', compress=True)
