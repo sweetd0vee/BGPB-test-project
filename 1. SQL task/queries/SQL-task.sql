@@ -79,7 +79,7 @@ from
 left join loans_fact as lf on
 	l.id_loan = lf.id_loan
 where
-	lf.dt = '2023-09-30'
+	lf.dt <= '2023-09-30'
 	and (l.code_curr = '840' or l.code_curr = '978')
 	and coalesce(lf.rest_od_eq, 0) + coalesce(lf.rest_pd_eq, 0) != 0
 
@@ -92,8 +92,8 @@ from
 		'2023-09-30'::date, 
 		'1 day'::interval
 		) as day_of_month
-left join loans l on l.dt_start < day_of_month::date
-left join clients c on l.id_client = c.id_client 
+inner join loans l on l.dt_start < day_of_month::date
+inner join clients c on l.id_client = c.id_client 
 where
 		l.dt_end = '3001-01-01' and c.type_client  = 'ФЛ'
 group by day_of_month 
@@ -112,8 +112,8 @@ from
 		'2023-09-30'::date, 
 		'1 day'::interval
 		) as day_of_month
-left join loans l on l.dt_start < day_of_month::date
-left join clients c on l.id_client = c.id_client 
+inner join loans l on l.dt_start < day_of_month::date
+inner join clients c on l.id_client = c.id_client 
 where
 		l.dt_end = '3001-01-01' and c.type_client  = 'ЮЛ'
 group by day_of_month
