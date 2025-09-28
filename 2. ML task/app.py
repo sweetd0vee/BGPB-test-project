@@ -1,3 +1,5 @@
+from http.client import HTTPException
+
 import joblib
 import numpy as np
 import pandas as pd
@@ -11,8 +13,8 @@ import io
 
 import logging
 
-logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Load the pre-trained XGBoost model
 model = joblib.load('artifacts/XGBoost.joblib')
@@ -21,11 +23,13 @@ categorical_le = joblib.load('artifacts/label_encoders.joblib')
 app = FastAPI()
 
 # CORS middleware allowing all origins and methods
+origins = ["*"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change to your domain in production
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods including OPTIONS
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
@@ -34,14 +38,22 @@ app.add_middleware(
 async def predict(file: UploadFile = File(...)):
     logger.info("call predict")
 
+    # Validation of file type
+    if not file.filename.endswith('.csv'):
+        raise HTTPException(400, "File must be CSV")
+
     contents = await file.read()
     csvdata = pd.read_csv(io.StringIO(contents.decode('utf-8')))
-
     data = pd.DataFrame(csvdata)
 
     logger.info(data)
 
-    data.set_index('ID')
+    # Validation of columns in input file
+    required_cols = ['ID'] + FEATURES
+    if not all(c in data.columns for c in required_cols):
+        raise HTTPException(400, f"Missing required columns")
+
+    data = data.set_index('ID')
     # Encoded categorical features in PredictionInput
     for c in CATEGORICAL:
         data[c] = categorical_le.transform(data[c].astype('str'))
