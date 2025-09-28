@@ -133,7 +133,7 @@ from
         join
             loans l ON c.id_client = l.id_client
         where
-            type_client = 'ЮЛ' and lower(name_client) like 'ооо%' -- Фильтрация по типу и наименованию клиента
+            type_client = 'ЮЛ' and name_client ilike 'ООО%' -- Фильтрация по типу и наименованию клиента
             and dt_open_loan between '2022-01-01' and '2022-12-31' -- Фильтрация по дате договора
         group by
             c.name_client
