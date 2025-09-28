@@ -1,0 +1,130 @@
+ID,Application creation month,NUMBER CREDITS IN KBI 3,NUMBER CREDITS IN KBI 6,ADMINISTRATIVE VIOLATION,CRIMINAL VIOLATION,NUMBER CREDITS IN KBI,NUMBER REQUESTS IN KBI,NUMBER REQUESTS IN KBI ALL,CLOSED CREDITS IN KBI,CLOSED CREDITS IN KBI YEAR,OVERDUES IN KBI,DURATION LAST OVERDUE,COUNTGUARANTEE,COUNTCLOSEGUARANTEE,COUNTOPENGUARANTEE,DURATIONGREATESTDELAYLASTYEAR,DURATIONGREATESTDELAYLASTALL,LATECOUNTSUMM 1 7,LATECOUNTSUMM 8 30,LATECOUNTSUMM 31 90,LATECOUNTSUMM 91 180,LATECOUNTSUMM 181,LATECOUNTPRC 1 7,LATECOUNTPRC 8 30,LATECOUNTPRC 31 90,LATECOUNTPRC 91 180,LATECOUNTPRC 181,LATECOUNTPAY 1 7,LATECOUNTPAY 8 30,LATECOUNTPAY 31 90,LATECOUNTPAY 91 180,LATECOUNTPAY 181,SEX,BIRTH CNTR,MARITAL STATUS,CHILDREN,MINORS,HOMEPHONE,WORKPHONE,MOBILE 1,REG TOWNTYPE,HOME TOWNTYPE,EMPLOYMENT,EDUCATION,PROFESSION,REAL ESTATE,VEHICLE,PERSONNEL PHONE,ACCOUNTING PHONE,Age,Length work,Matching address of registration and residence,Loans total,Credit load
+"1,308",winter,0,0,0,1,0,0,1,2,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,no,no,no,no,50,13.0,no,2,0.05
+"1,992",autumn,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,24,2.5,yes,1,0.24
+"2,478",spring,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,a,yes,no,no,no,37,17.0,yes,1,0.05
+479,spring,0,4,0,0,6,1,13,6,3,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,RU,Separation,1,0,yes,yes,yes,City,City,Recruitment,Secondary education,a,no,no,no,no,54,3.0,yes,12,0.55
+"1,794",winter,0,0,0,0,1,1,3,1,0,0,3,2,2,0,0.0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,j,no,yes,no,no,31,9.0,no,2,0.16
+"1,926",winter,0,2,9,0,4,2,18,4,2,12,1,3,2,1,58.0,58,3,9,1,0,0,3,8,2,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Higher education,n,yes,no,no,no,32,3.7,yes,8,0.43
+"2,332",winter,1,1,2,0,1,1,9,4,2,1,14,3,1,2,0.0,125,1,0,0,1,0,1,2,1,0,0,0,0,1,0,0,Male,DE,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,h,yes,no,no,no,36,0.9,yes,5,0.11
+179,winter,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,1,0,yes,yes,yes,Village1,City,Recruitment,Secondary special education,a,yes,no,no,no,41,23.2,no,0,0.25
+"1,107",autumn,0,0,2,0,2,0,8,5,1,0,0,1,1,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,no,yes,no,no,39,4.8,yes,7,0.31
+"1,617",autumn,0,1,0,0,1,1,6,3,0,0,15,0,0,0,0.0,58,8,13,2,0,0,7,12,3,0,0,7,9,4,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Secondary special education,d,no,no,no,no,32,0.5,yes,4,0.02
+"1,124",winter,0,0,0,0,1,1,3,1,0,1,280,1,1,0,0.0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,a,yes,yes,yes,yes,42,3.8,yes,2,0.03
+"1,809",autumn,0,2,0,0,2,0,3,1,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,RU,Separation,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,no,no,no,34,3.0,yes,3,0.33
+"1,238",winter,0,0,0,0,2,0,11,12,0,0,2,3,2,1,0.0,2,2,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,Agrotown,Agrotown,Recruitment,Secondary special education,h,no,yes,no,no,29,5.3,no,14,0.26
+"2,132",autumn,0,0,0,0,2,2,4,0,0,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,Village1,Agrotown,Recruitment,Secondary education,m,no,yes,yes,yes,31,2.3,no,2,0.34
+808,spring,0,1,0,0,1,0,10,11,3,0,"1,078",1,1,0,0.0,35,2,3,1,0,0,3,3,1,0,0,3,3,1,0,1,Male,UA,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,c,yes,no,yes,yes,30,6.5,yes,12,0.1
+874,autumn,0,0,0,2,3,0,7,4,0,0,5,2,1,1,0.0,5,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,a,yes,yes,no,no,39,17.8,yes,7,0.13
+762,autumn,0,0,2,0,2,0,7,5,0,3,2,6,5,3,4.0,21,5,2,0,0,0,5,2,0,0,0,1,2,0,0,0,Male,RU,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,no,yes,yes,40,2.0,yes,7,0.07
+"2,184",autumn,0,0,0,0,0,2,8,2,0,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Separation,1,1,yes,yes,yes,City,City,Recruitment,Higher education,j,no,no,no,no,36,1.8,yes,2,0.03
+862,winter,0,0,2,0,1,1,3,1,0,1,19,2,2,0,0.0,5,12,0,0,0,0,12,1,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,r,no,yes,no,no,33,7.3,yes,2,0.18
+"2,363",winter,0,2,10,0,2,0,1,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,Agrotown,Agrotown,Recruitment,Secondary special education,a,no,no,no,no,21,2.0,yes,2,0.36
+663,winter,0,0,3,0,1,1,7,3,0,1,2,5,4,1,0.0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,j,yes,yes,yes,yes,40,6.0,yes,4,0.08
+431,winter,0,0,2,0,0,1,4,1,0,0,14,1,1,0,0.0,65,2,4,7,0,0,2,4,7,0,0,0,0,0,0,0,Male,KZ,Married,2,2,yes,yes,yes,Village1,Village1,Owner of the enterprise,Secondary special education,k,no,yes,no,no,33,0.5,yes,1,0.02
+903,autumn,0,0,0,0,0,0,1,0,0,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Separation,1,0,yes,yes,yes,City,City,Recruitment,Higher education,n,yes,yes,no,no,59,24.0,yes,0,0.03
+977,winter,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,i,no,no,no,no,27,0.5,no,0,0.05
+963,summer,1,1,6,0,2,1,12,4,0,0,474,3,2,1,0.0,474,3,11,2,1,2,3,8,3,1,2,1,0,0,0,1,Male,AZ,Married,5,4,yes,yes,yes,City,City,Recruitment,Higher education,g,no,no,no,no,45,0.5,yes,6,0.18
+"2,387",spring,0,0,0,0,5,1,11,8,2,0,10,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Secondary special education,c,yes,yes,yes,yes,41,19.9,yes,13,0.27
+"2,035",autumn,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,no,no,no,21,0.8,yes,1,0.09
+"1,790",summer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,KZ,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,a,yes,no,yes,yes,39,1.6,yes,0,0.04
+"1,430",winter,0,0,0,0,2,1,11,4,0,0,6,1,1,0,0.0,195,7,8,4,0,0,6,8,3,1,0,0,2,3,0,0,Feminine,BY,Married,1,0,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,yes,no,51,33.6,yes,6,0.17
+"2,059",autumn,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Secondary education,d,no,no,no,no,28,1.4,yes,0,0.27
+"1,362",autumn,0,0,0,0,2,1,14,12,2,23,12,14,14,0,19.0,21,32,19,0,0,0,40,27,0,0,0,9,1,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,e,no,yes,no,no,40,9.6,yes,14,0.3
+"1,392",autumn,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,d,no,yes,yes,yes,25,0.3,yes,0,0.19
+45,winter,0,0,1,0,2,2,11,7,2,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,2,2,yes,yes,yes,City,City,Recruitment,Secondary special education,h,no,yes,yes,no,39,7.5,yes,9,0.21
+"2,080",autumn,0,0,1,0,1,2,4,2,1,1,9,1,1,0,9.0,64,13,7,1,0,0,15,8,1,0,0,1,0,0,0,0,Feminine,UA,Separation,2,2,yes,yes,yes,Urban type settlement,Urban type settlement,Recruitment,Secondary education,j,no,no,no,no,29,9.3,yes,3,0.24
+"1,730",autumn,0,0,0,0,3,0,15,8,2,0,94,0,0,0,0.0,7,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,Male,UA,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,p,yes,no,yes,yes,45,2.0,yes,11,0.2
+74,winter,0,0,1,0,1,1,5,2,0,0,0,5,4,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,yes,no,no,no,56,18.1,yes,3,0.27
+195,autumn,0,1,0,0,1,0,2,3,1,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Higher education,p,no,yes,yes,yes,25,0.7,yes,4,0.12
+"1,502",winter,1,1,1,0,1,0,3,2,0,0,0,1,1,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,RU,Separation,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,32,1.4,yes,3,0.15
+"1,273",winter,0,0,0,0,0,1,3,4,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary technical education,d,no,no,no,no,25,2.5,no,4,0.46
+446,autumn,0,0,1,0,0,1,2,2,1,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,Village1,City,Recruitment,Secondary special education,n,no,yes,no,no,21,0.8,no,2,0.05
+"1,667",winter,1,1,0,0,2,0,6,2,1,1,5,0,0,0,5.0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary education,f,no,no,no,no,25,1.3,yes,4,0.26
+"2,293",summer,0,1,0,0,2,0,3,0,0,0,0,1,1,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,0,0,no,yes,yes,Village1,Village1,Recruitment,Higher education,f,yes,no,no,no,29,1.2,yes,2,0.43
+369,autumn,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,s,yes,yes,no,no,39,4.3,yes,1,0.04
+"1,640",winter,0,0,0,0,1,1,6,5,1,6,10,0,0,0,35.0,63,7,2,3,0,0,7,2,2,0,1,3,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,Agrotown,Agrotown,Recruitment,Secondary education,i,no,yes,no,no,29,2.3,yes,6,0.42
+57,autumn,0,0,2,0,2,0,3,2,0,0,28,0,0,0,0.0,28,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Owner of the enterprise,Secondary special education,k,no,yes,yes,yes,44,16.0,yes,4,0.35
+"1,415",autumn,0,0,0,0,1,0,2,0,0,0,0,0,2,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,RU,Widow,2,0,yes,yes,yes,City,City,Recruitment,Higher education,e,yes,yes,no,no,56,15.2,yes,1,0.15
+"2,410",autumn,0,0,0,0,2,0,6,4,0,0,6,0,0,0,0.0,6,2,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,27,5.3,no,6,0.11
+"1,100",winter,1,1,1,5,0,1,1,1,1,0,0,1,0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary education,a,no,no,yes,yes,31,0.3,yes,1,0.05
+835,autumn,0,0,1,0,1,0,5,2,0,0,1,2,1,1,0.0,27,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,Village1,Village1,Recruitment,Secondary special education,a,yes,yes,no,no,39,10.0,yes,3,0.06
+433,winter,0,0,1,0,1,0,0,1,0,0,2,0,0,0,0.0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Male,BY,Single,1,1,yes,yes,yes,City,City,Recruitment,Higher education,n,yes,yes,no,no,52,14.5,yes,2,0.09
+368,winter,0,1,0,0,4,0,15,6,0,1,5,3,3,0,0.0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,a,yes,no,yes,yes,30,1.5,yes,10,0.33
+"2,022",autumn,0,0,5,0,0,0,1,1,0,0,0,4,2,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,k,yes,yes,yes,yes,45,10.1,yes,1,0.05
+"1,019",winter,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary education,j,no,no,no,no,27,1.1,yes,0,0.06
+"1,981",autumn,0,0,0,0,1,0,1,4,0,0,20,0,0,0,0.0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,3,2,no,yes,yes,City,City,Recruitment,Secondary special education,a,yes,yes,no,no,40,8.0,yes,5,0.09
+415,winter,0,0,0,0,1,0,4,3,1,0,2,0,0,0,0.0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Male,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Secondary education,a,no,yes,no,no,26,3.5,no,4,0.15
+"1,262",winter,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary special education,f,no,no,yes,yes,27,1.8,yes,0,0.02
+"2,041",spring,0,1,0,0,1,0,7,2,2,0,0,1,0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,23,3.3,yes,3,0.23
+"2,338",winter,0,0,0,0,1,2,9,3,0,0,5,0,0,0,0.0,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Owner of the enterprise,Higher education,k,yes,yes,no,no,28,2.6,yes,4,0.32
+"2,479",winter,0,0,0,0,0,0,2,1,0,0,8,1,0,1,0.0,15,3,2,0,0,0,3,2,0,0,0,0,0,0,0,0,Feminine,BY,Separation,2,2,yes,yes,yes,City,City,Recruitment,Secondary special education,j,no,no,no,no,37,1.6,yes,1,0.05
+"1,766",winter,0,0,0,0,2,0,2,1,1,0,0,1,0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,e,no,yes,no,no,31,1.5,yes,3,0.28
+803,summer,0,1,2,0,1,1,9,8,3,1,1,0,0,0,1.0,8,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary education,d,yes,yes,no,no,32,4.5,no,9,0.25
+283,winter,0,1,0,0,2,1,6,5,2,0,296,0,0,0,0.0,17,4,3,0,0,0,4,3,0,0,1,0,0,0,0,0,Male,BY,Separation,0,0,yes,yes,yes,City,City,Recruitment,Secondary education,h,no,no,no,no,32,3.8,yes,7,0.31
+"1,531",autumn,0,0,3,0,1,0,2,2,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary education,i,yes,yes,no,no,46,23.0,yes,3,0.03
+408,winter,0,0,1,0,1,1,5,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,RU,Single,0,0,yes,yes,yes,Agrotown,City,Recruitment,Higher education,q,no,no,no,no,26,0.5,no,1,0.08
+"1,317",spring,0,2,0,0,1,0,17,7,2,0,0,3,1,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary education,f,yes,yes,no,no,50,14.8,yes,8,0.29
+622,winter,0,0,0,0,1,0,1,4,0,0,26,1,0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Feminine,BY,Separation,1,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,yes,no,no,no,46,0.6,yes,5,0.13
+"1,457",winter,0,0,0,0,0,2,3,1,0,0,1,3,3,0,0.0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,3,2,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,yes,no,no,44,0.8,yes,1,0.03
+"2,109",winter,0,0,0,0,2,0,5,5,0,0,2,0,0,0,0.0,2,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Male,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,no,yes,no,no,28,5.2,yes,7,0.04
+247,autumn,0,0,0,0,2,0,3,2,1,1,2,0,0,0,2.0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,39,1.8,yes,4,0.14
+71,winter,0,0,1,0,2,1,7,0,0,0,0,6,4,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,4,4,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,yes,yes,no,41,8.0,yes,2,0.21
+"1,868",winter,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Separation,1,1,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,no,yes,yes,30,1.7,yes,1,0.11
+"1,504",autumn,0,1,0,0,1,1,6,2,1,0,0,2,2,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,32,6.0,yes,3,0.21
+240,autumn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,22,1.5,yes,0,0.05
+765,winter,0,0,0,0,4,0,6,2,1,0,0,3,1,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,0,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,54,16.3,yes,6,0.42
+325,winter,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary special education,j,no,no,no,no,23,0.4,yes,0,0.03
+189,summer,0,0,0,0,0,0,4,2,0,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,1,yes,yes,yes,Village1,Village1,Recruitment,Higher education,f,yes,yes,no,no,48,6.4,yes,2,0.05
+"1,584",winter,0,0,2,0,5,1,15,5,0,2,6,1,1,0,6.0,7,4,0,0,0,0,4,0,0,0,0,1,0,0,0,0,Feminine,BY,Separation,2,0,yes,yes,yes,City,City,Recruitment,Higher education,f,no,yes,yes,no,59,6.2,yes,10,0.44
+"2,092",autumn,0,0,0,0,1,1,7,6,0,0,25,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,Feminine,BY,Widow,1,0,yes,yes,yes,City,City,Recruitment,Secondary special education,l,no,no,yes,yes,40,20.3,yes,7,0.3
+"2,162",spring,0,0,1,0,2,0,6,2,0,3,1,2,2,0,13.0,13,2,1,0,0,0,2,1,0,0,0,0,0,0,0,0,Male,RU,Married,3,0,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,50,12.0,yes,4,0.23
+"1,252",autumn,0,0,0,0,3,1,6,2,0,0,4,1,0,1,0.0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,yes,no,yes,37,6.8,yes,5,0.15
+"1,411",autumn,0,0,0,0,1,0,13,4,0,0,1,2,1,1,0.0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,yes,yes,no,no,30,10.0,yes,5,0.07
+"2,250",winter,0,0,0,0,3,1,7,2,2,0,0,5,4,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,c,yes,yes,no,yes,40,0.8,yes,5,0.31
+"1,919",autumn,0,0,0,0,2,4,8,1,0,0,0,5,1,4,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary special education,o,yes,yes,yes,yes,44,0.3,yes,3,0.23
+"2,011",summer,0,0,0,0,2,0,6,6,0,0,29,1,0,1,0.0,28,0,1,0,0,0,0,1,0,0,0,0,2,0,0,0,Male,RU,Married,2,1,yes,yes,yes,City,City,Recruitment,Higher education,n,yes,yes,no,yes,44,17.0,yes,8,0.13
+"1,514",autumn,2,2,0,0,2,1,8,6,1,0,0,3,3,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,yes,yes,36,4.7,yes,8,0.26
+671,autumn,0,0,0,0,2,1,5,0,0,1,1,2,1,1,0.0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Feminine,KZ,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,d,yes,no,yes,no,33,10.5,yes,2,0.46
+509,autumn,2,2,3,0,6,3,17,9,1,13,23,4,3,1,50.0,90,27,67,9,0,0,24,73,10,0,0,1,2,0,0,0,Feminine,BY,Separation,1,0,yes,yes,yes,City,City,Recruitment,Higher education,n,yes,yes,no,no,42,1.8,yes,15,0.22
+44,winter,0,1,0,0,4,1,11,4,3,1,14,2,2,0,14.0,14,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,Feminine,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,no,yes,no,no,40,21.5,yes,8,0.12
+891,winter,0,0,1,0,2,1,4,0,0,7,2,0,0,0,25.0,25,1,6,0,0,0,1,6,0,0,0,0,0,0,0,0,Male,BY,Married,0,0,yes,yes,yes,City,City,Recruitment,Higher education,a,no,no,yes,yes,31,8.7,yes,2,0.09
+"1,799",summer,1,3,0,0,2,0,6,5,2,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,yes,34,7.1,yes,7,0.35
+"2,549",winter,0,0,0,0,2,1,4,2,0,7,5,0,0,0,55.0,61,3,1,1,0,0,9,2,2,0,0,3,1,0,0,0,Feminine,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary education,j,no,yes,no,no,54,6.8,yes,4,0.18
+841,winter,0,0,2,0,0,1,7,1,0,0,31,0,0,0,0.0,183,1,2,1,0,0,1,3,4,0,1,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,yes,no,no,28,1.2,yes,1,0.06
+"1,863",summer,0,0,0,0,0,0,8,4,2,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,34,5.0,yes,4,0.07
+"1,593",winter,0,0,0,0,0,0,0,1,0,0,5,0,0,0,0.0,6,11,0,0,0,0,11,0,0,0,0,11,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,29,1.3,yes,1,0.04
+"1,006",winter,0,3,1,2,2,2,14,7,3,0,0,2,2,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,Agrotown,Agrotown,Recruitment,Secondary education,a,yes,yes,yes,yes,40,0.6,yes,9,0.22
+"1,801",autumn,0,2,3,1,1,0,5,3,3,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,yes,no,no,41,4.3,yes,4,0.18
+"1,583",winter,0,0,0,0,1,1,7,3,0,2,2,2,2,0,2.0,7,5,0,0,0,0,6,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Secondary special education,l,no,no,no,yes,36,8.5,yes,4,0.3
+"1,186",winter,0,2,0,0,3,0,1,0,0,0,1,1,0,1,0.0,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,35,7.0,yes,3,0.18
+"1,395",winter,0,0,0,0,1,1,4,5,0,8,2,1,0,1,23.0,67,11,15,1,0,0,14,13,2,0,0,1,2,0,0,0,Male,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary special education,a,yes,yes,no,no,57,1.8,yes,6,0.38
+"2,274",autumn,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary technical education,c,no,no,no,no,24,0.9,yes,1,0.09
+"1,881",summer,0,2,1,0,3,1,18,17,4,0,6,1,0,1,0.0,6,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,a,no,yes,no,no,30,7.0,yes,20,0.16
+"1,526",summer,0,1,0,0,0,0,6,2,1,0,0,4,2,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,o,yes,yes,yes,yes,44,22.0,yes,2,0.08
+"2,381",autumn,0,1,0,0,1,0,9,5,1,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,LT,Married,2,2,yes,yes,yes,City,City,Recruitment,Secondary education,i,yes,yes,no,no,32,8.5,yes,6,0.09
+"2,061",autumn,0,0,1,1,2,1,5,3,0,0,0,4,1,3,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,0,yes,yes,yes,City,City,Recruitment,Secondary education,a,yes,yes,yes,yes,51,30.3,yes,5,0.39
+"1,577",winter,0,1,0,0,2,0,5,6,2,1,4,2,2,0,4.0,4,4,0,0,0,0,4,0,0,0,0,1,0,0,0,0,Male,TM,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary special education,j,no,no,no,no,51,0.8,no,8,0.28
+679,autumn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,23,2.0,no,0,0.06
+"1,829",summer,1,1,0,0,1,1,3,2,1,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Separation,2,2,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,39,3.3,yes,3,0.1
+"1,164",winter,0,1,1,0,1,0,4,1,0,0,0,5,4,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Widow,2,0,yes,yes,yes,City,City,Recruitment,Secondary education,a,yes,yes,yes,yes,48,22.7,yes,2,0.1
+299,winter,1,2,0,0,3,0,9,8,1,0,18,0,0,0,0.0,18,3,0,0,0,0,1,2,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,no,no,33,5.5,yes,11,0.62
+"1,846",autumn,0,0,0,0,1,0,4,2,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,yes,yes,City,City,Recruitment,Secondary education,a,no,no,no,no,29,1.6,yes,3,0.13
+"2,453",summer,0,1,0,0,3,2,10,2,1,0,1,3,3,0,0.0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Feminine,KZ,Married,1,0,yes,yes,yes,City,City,Recruitment,Higher education,k,no,no,yes,yes,47,7.8,yes,5,0.47
+"2,530",autumn,0,1,2,0,2,1,5,4,1,1,1,2,2,0,1.0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,0,yes,yes,yes,City,City,Recruitment,Higher education,p,yes,no,yes,yes,50,0.8,no,6,0.19
+533,spring,0,1,1,0,6,0,8,3,2,1,9,3,1,2,9.0,16,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,Feminine,BY,Separation,1,0,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,no,no,no,50,11.5,yes,9,0.28
+"1,814",autumn,0,0,0,0,2,0,2,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,yes,yes,yes,yes,36,3.0,yes,2,0.25
+"2,172",autumn,0,2,0,0,4,1,11,7,4,5,1,1,1,0,3.0,6,17,0,0,0,0,16,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,0,yes,yes,yes,City,City,Recruitment,Secondary education,d,yes,no,yes,no,54,24.1,yes,11,0.63
+901,autumn,0,0,0,0,0,1,6,5,1,1,14,0,0,0,9.0,42,7,16,0,0,0,9,17,0,0,0,6,18,2,0,0,Feminine,BY,Single,5,4,yes,yes,yes,City,City,Recruitment,Secondary technical education,d,yes,no,no,no,41,0.5,yes,5,0.08
+"2,076",autumn,0,0,3,0,0,0,2,3,0,0,0,2,0,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,a,yes,yes,no,no,50,0.4,yes,3,0.05
+"1,221",autumn,0,0,1,0,0,1,2,1,0,0,0,2,1,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Higher education,j,no,no,no,no,33,5.4,yes,1,0.06
+176,winter,1,1,0,0,3,0,6,5,1,0,2,3,2,1,0.0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,yes,yes,yes,41,8.2,yes,8,0.14
+"1,048",autumn,0,0,1,0,1,0,3,5,0,0,0,3,1,2,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Single,1,1,yes,yes,yes,City,City,Recruitment,Higher education,f,no,no,no,no,42,8.2,yes,6,0.09
+234,autumn,0,0,1,0,1,1,6,4,0,3,5,4,2,2,50.0,50,8,6,1,0,0,9,8,2,0,0,7,3,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,a,no,no,no,no,34,0.5,yes,5,0.06
+465,autumn,0,0,1,0,0,0,15,11,3,3,5,2,1,1,17.0,29,22,12,0,0,0,21,12,1,0,0,12,2,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,n,yes,no,no,no,40,19.0,yes,11,0.05
+"1,695",winter,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,MD,Single,0,0,yes,yes,yes,City,City,Recruitment,Higher education,e,no,no,no,no,28,2.3,yes,0,0.03
+"1,536",summer,0,0,0,0,2,1,2,1,0,0,0,1,0,1,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Secondary special education,e,yes,no,yes,yes,42,12.9,yes,3,0.09
+"1,554",winter,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Single,0,0,yes,no,yes,Village1,Village1,Recruitment,Secondary technical education,c,no,no,yes,yes,23,1.5,yes,0,0.35
+"1,125",summer,0,0,1,0,3,0,6,2,1,2,1,1,1,0,6.0,9,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,1,1,yes,yes,yes,City,City,Recruitment,Secondary special education,f,no,yes,yes,yes,34,4.0,yes,5,0.4
+566,winter,1,1,0,0,2,2,5,1,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Separation,0,0,yes,yes,yes,City,City,Recruitment,Higher education,j,yes,no,no,no,43,11.0,yes,3,0.3
+290,summer,1,1,1,0,1,0,4,4,1,0,55,1,1,0,0.0,55,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Male,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,g,no,yes,yes,yes,39,1.8,yes,5,0.2
+648,winter,0,0,7,0,1,2,11,1,0,0,0,11,8,3,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Feminine,BY,Married,2,2,yes,yes,yes,City,City,Recruitment,Higher education,g,yes,no,no,no,42,7.5,yes,2,0.19
