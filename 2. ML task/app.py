@@ -54,11 +54,13 @@ async def predict(file: UploadFile = File(...)):
         raise HTTPException(400, f"Missing required columns")
 
     data = data.set_index('ID')
-    # Encoded categorical features in PredictionInput
-    for c in CATEGORICAL:
-        data[c] = categorical_le.transform(data[c].astype('str'))
 
+    # Encoded categorical features in PredictionInput
+    logger.info(categorical_le)
+    data[CATEGORICAL] = categorical_le.transform(data[CATEGORICAL].astype('str'))
+    logger.info(data)
     # Convert input features to a NumPy array
+
     input_array = np.array(data[FEATURES]).reshape(1, -1)
 
     # Make prediction
