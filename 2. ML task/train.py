@@ -13,7 +13,7 @@ from artifacts.features import CATEGORICAL, FEATURES, NUMERICAL
 import warnings
 warnings.filterwarnings('ignore')
 
-import logging
+from base_logger import logger
 
 SEED = 42
 
@@ -53,7 +53,12 @@ parameters = grid_search.best_params_
 parameters["early_stopping_rounds"] = 10
 model_best = xgb.XGBClassifier(**parameters)
 
-model_best.fit(X_train, y_train, eval_set=[(X_valid, y_valid)])
+try:
+    model_best.fit(X_train, y_train, eval_set=[(X_valid, y_valid)])
+except Exception as e:
+    logger.error(f"Model training failed: {e}")
+    raise
+
 pred = model_best.predict_proba(X_test)[:,1]
 print(roc_auc_score(y_test, pred))
 
