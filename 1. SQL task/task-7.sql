@@ -3,7 +3,7 @@ select
 from
 	clients c2
 where
-	id_client not in (
+	id_client not exists (
 	select
 		c.id_client
 	from
