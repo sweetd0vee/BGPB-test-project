@@ -1,6 +1,4 @@
-import category_encoders
 import joblib
-import numpy as np
 import pandas as pd
 import xgboost as xgb
 from sklearn.metrics import roc_auc_score
@@ -60,7 +58,7 @@ except Exception as e:
     raise
 
 pred = model_best.predict_proba(X_test)[:,1]
-print(roc_auc_score(y_test, pred))
+logger.info(f"ROC_AUC score for best model: {roc_auc_score(y_test, pred)}")
 
 joblib.dump(model_best, 'artifacts/XGBoost.joblib', compress=True)
 joblib.dump(label_encoders, 'artifacts/label_encoders.joblib', compress=True)
