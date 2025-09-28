@@ -3,31 +3,31 @@
 
 ### Установка зависимостей:
 
-**``python -m venv venv``**
+``python -m venv venv``
 
-**``source venv/bin/activate``**
+``source venv/bin/activate``
 
-**``pip install -r requirements.txt``**
+``pip install -r requirements.txt``
 
 ### Запуск локально:
 
 
-**``uvicorn app:app --reload``**
+``uvicorn app:app --reload``
 
 
 ### Запуск в docker:
 
 
-**``cd docker``**
+``cd docker``
 
-**``./docker-build.sh``** -- создать докер имедж
+``./docker-build.sh`` - создать docker image
 
-**``docker run -p 8000:8000 arina/bgps:master``**
+``docker run -p 8000:8000 arina/bgps:master``
 
 
 ### Или через docker compose:
 
 
-**``./docker-build.sh``**
+``./docker-build.sh``
 
-**``./docker-compose-up.sh``** -- запустить контейнер
+``./docker-compose-up.sh`` - запустить контейнер
