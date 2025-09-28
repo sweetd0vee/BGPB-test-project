@@ -75,8 +75,8 @@ select
 	end as currency,
 	lf.rest_od_eq + lf.rest_pd_eq as rest_eq -- not null
 from
-	LOANS as l
-join LOANS_FACT as lf on
+	loans as l
+join loans_fact as lf on
 	l.id_loan = lf.id_loan
 where
 	lf.dt = '2023-09-30'
