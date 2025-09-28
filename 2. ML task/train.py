@@ -40,7 +40,7 @@ param_grid = {
     "gamma": [0.1, 1],
     "max_depth": [4, 6, 8],
     "lambda": [0.1, 1],
-    "alpha": [0,0.1,1],
+    "alpha": [0, 0.1, 1],
     "verbosity": [0]
 }
 xgb_model = xgb.XGBClassifier()
