@@ -1,30 +1,46 @@
 import joblib
 import numpy as np
 import pandas as pd
-from fastapi import FastAPI
+from fastapi import FastAPI, File, UploadFile
+from typing import Annotated
 from fastapi.middleware.cors import CORSMiddleware
 
 from artifacts.features import CATEGORICAL, FEATURES
 
+import io
+
+import logging
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+
 # Load the pre-trained XGBoost model
 model = joblib.load('artifacts/XGBoost.joblib')
 categorical_le = joblib.load('artifacts/label_encoders.joblib')
-
 
 app = FastAPI()
 
 # CORS middleware allowing all origins and methods
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],            # Change to your domain in production
+    allow_origins=["*"],  # Change to your domain in production
     allow_credentials=True,
-    allow_methods=["*"],            # Allow all HTTP methods including OPTIONS
+    allow_methods=["*"],  # Allow all HTTP methods including OPTIONS
     allow_headers=["*"],
 )
 
 
 @app.post("/predict")
-async def predict(data: pd.DataFrame):
+async def predict(file: UploadFile = File(...)):
+    logger.info("call predict")
+
+    contents = await file.read()
+    csvdata = pd.read_csv(io.StringIO(contents.decode('utf-8')))
+
+    data = pd.DataFrame(csvdata)
+
+    logger.info(data)
+
     data.set_index('ID')
     # Encoded categorical features in PredictionInput
     for c in CATEGORICAL:

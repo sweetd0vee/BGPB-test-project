@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .idea/
+.DS_Store
 
 # Virtual environments
 venv/

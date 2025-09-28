@@ -4,9 +4,19 @@ WORKDIR /
 
 COPY requirements.txt requirements.txt
 
-COPY . .
-
 RUN pip install --no-cache-dir -r requirements.txt
+
+# create directories
+RUN mkdir /python/
+RUN mkdir /python/artifacts
+
+# copy directories
+COPY artifacts /python/artifacts
+
+# copy files
+COPY app.py /python/app.py
+
+WORKDIR /python/
 
 EXPOSE 8000
 
