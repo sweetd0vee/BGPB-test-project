@@ -1,31 +1,33 @@
-Цель задачи построить модель, предсказывающую вероятность дефолта клиента (Маркер). Так как мы имеем дело с бинарной классификацией, то для оценки точности модели использовалась такая метрика как roc_auc.
+Цель задачи построить модель, предсказывающую вероятность дефолта клиента - **Маркер**. Так как мы имеем дело с бинарной классификацией, то для оценки точности модели использовалась такая метрика как **roc_auc**.
 
 
-Установка зависимостей:
+### Установка зависимостей:
 
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+**``python -m venv venv``**
 
-Запуск локально:
+**``source venv/bin/activate``**
 
+**``pip install -r requirements.txt``**
 
-**uvicorn app:app --reload**
-
-
-Запуск в docker:
+### Запуск локально:
 
 
-**cd docker**
-
-**./docker-build.sh** -- создать докер имедж
-
-**docker run -p 8000:8000 arina/bgps:master**
+**``uvicorn app:app --reload``**
 
 
-Или через docker compose:
+### Запуск в docker:
 
 
-**./docker-build.sh**
+**``cd docker``**
 
-**./docker-compose-up.sh** -- запустить контейнер
+**``./docker-build.sh``** -- создать докер имедж
+
+**``docker run -p 8000:8000 arina/bgps:master``**
+
+
+### Или через docker compose:
+
+
+**``./docker-build.sh``**
+
+**``./docker-compose-up.sh``** -- запустить контейнер
