@@ -9,15 +9,23 @@ pip install -r requirements.txt
 
 Запуск локально:
 
-uvicorn app:app --reload  
+
+**uvicorn app:app --reload**
+
 
 Запуск в docker:
 
-cd docker
-./docker-build.sh -- создать докер имедж
-docker run  -p 8000:8000 arina/bgps:master
+
+**cd docker**
+
+**./docker-build.sh** -- создать докер имедж
+
+**docker run -p 8000:8000 arina/bgps:master**
+
 
 Или через docker compose:
 
-./docker-build.sh
-./docker-compose-up.sh -- запустить контейнер
+
+**./docker-build.sh**
+
+**./docker-compose-up.sh** -- запустить контейнер
