@@ -206,7 +206,7 @@ select
 from
 	clients c2
 where
-	id_client not exists (
+	id_client not in (
 	select
 		c.id_client
 	from
