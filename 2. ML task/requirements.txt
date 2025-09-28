@@ -3,7 +3,6 @@ fastapi==0.117.1
 joblib==1.5.2
 matplotlib==3.9.4
 numpy==2.0.2
-optuna==4.5.0
 pandas==2.2.2
 pydantic==2.10.3
 python-multipart==0.0.3
