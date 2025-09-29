@@ -14,6 +14,7 @@ RUN mkdir /python/artifacts
 COPY artifacts /python/artifacts
 
 # copy files
+COPY base_logger.py /python/base_logger.py
 COPY app.py /python/app.py
 
 WORKDIR /python/
